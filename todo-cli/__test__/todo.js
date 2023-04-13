@@ -48,12 +48,12 @@ describe('todoList', () => {
   test('retrieval of due today items', () => {
     const dueTodayTodo = {
       title: 'Call mom',
-      dueDate: '2023-04-12',
+      dueDate: '2023-04-13',
       completed: false
     }
     const notDueTodayTodo = {
       title: 'Buy groceries',
-      dueDate: '2023-04-13',
+      dueDate: '2023-04-14',
       completed: false
     }
     list.add(dueTodayTodo)
@@ -65,7 +65,7 @@ describe('todoList', () => {
   test('retrieval of due later items', () => {
     const dueLaterTodo = {
       title: 'Buy groceries',
-      dueDate: '2023-04-14',
+      dueDate: '2023-04-15',
       completed: false
     }
     const notDueLaterTodo = {
